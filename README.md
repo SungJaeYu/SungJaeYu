@@ -2,7 +2,7 @@
 <p align="center">
   <h1>SUNG-JAE YU</h1>
 
-  * Software Engineer at Republic of Korea Airforce
+  * Software Engineer for Republic of Korea Airforce
   * Flight Software
   * Machine Learning & Deep Learning
   * C++, Python
