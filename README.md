@@ -1,4 +1,5 @@
-# <center>SUNG-JAE YU</center>
+# SUNG-JAE YU
+{: .text-center }
 
 * Software Engineer at Republic of Korea Airforce
 * Flight Software
