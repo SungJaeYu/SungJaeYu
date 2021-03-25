@@ -5,6 +5,6 @@
 * Machine Learning & Deep Learning
 * C++, Python
 
-<center>🥲 [My Blog](https://sungjaeyu.github.io/)</center>
+🥲 [My Blog](https://sungjaeyu.github.io/)
   
-<center>🤓 [My Linked-In](https://www.linkedin.com/in/sungjae-yu-582b95203/)</center>
+🤓 [My Linked-In](https://www.linkedin.com/in/sungjae-yu-582b95203/)
