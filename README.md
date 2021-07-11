@@ -4,7 +4,7 @@
 
   * Software Engineer
   * Flight Software
-  * Machine Learning & Deep Learning
+  * Reinforcement Learning & Machine Learning & Deep Learning
   * C++, Python
 
   🥲 [My Blog](https://sungjaeyu.github.io/)
