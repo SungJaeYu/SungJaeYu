@@ -3,8 +3,8 @@
   <h1>SUNG-JAE YU</h1>
 
   * Software Engineer
-  * Main : Flight Software
-  * Sub : Reinforcement Learning & Machine Learning & Deep Learning
+  * Main : Flight Software, C/C++ Windows Program
+  * Sub : Reinforcement Learning & Machine Learning & Deep Learning, Computer Graphics
   * C, C++, Python
 
   🥲 [My Blog](https://sungiron.tistory.com/)
