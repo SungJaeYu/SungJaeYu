@@ -3,6 +3,9 @@
 **Flight Software Test Lead @ Republic of Korea Air Force**  
 항공기 탑재 소프트웨어 개발 · 시험평가 · 실시간 임베디드 · AI/RAG
 
+🌐 **Portfolio & Blog** — https://sungjae-blog.vercel.app/  
+💼 **LinkedIn** — https://www.linkedin.com/in/sungjae-yu-582b95203/
+
 ---
 
 공군에서 **항공기 탑재 소프트웨어 개발과 시험평가**를 수행하고 있습니다.
@@ -65,8 +68,3 @@ Strongly-typed units, ISA atmosphere, CAS/EAS/TAS, attitude, wind triangle을 �
 ## Tech
 
 `C` `C++` `Python` `VxWorks` `MIL-STD-1553` `STM32` `Zephyr RTOS` `WebAssembly` `CMake` `GoogleTest` `GitHub Actions` `ML/RL` `LLM/RAG`
-
-## Links
-
-- 🌐 [Portfolio](https://sungjae-blog.vercel.app/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/sungjae-yu-582b95203/)
