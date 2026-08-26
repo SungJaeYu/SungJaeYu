@@ -1,57 +1,71 @@
 ### Hi, I'm SungJae Yu 👋
 
-**Flight Software Test & Verification Engineer @ ROKAF**  
-안전필수 항공 임베디드 SW · C/C++ · 테스트/검증 · AI 응용
+**Flight Software Engineer @ Republic of Korea Air Force**  
+항공기 탑재 소프트웨어 개발 · 시험평가 · 실시간 임베디드 · AI/RAG
 
 ---
 
-공군에서 전투기 탑재 소프트웨어의 **개발과 테스트·검증**을 담당해 왔습니다.  
-비행 SW 엔지니어에서 테스트 엔지니어, 테스트 매니저로 역할을 넓히며
-**요구사항 → 구현 → 시험 → 검증**이 연결되는 안전필수 소프트웨어 개발 과정을 경험했습니다.
+공군에서 **항공기 탑재 소프트웨어 개발과 시험평가**를 수행하고 있습니다.
+화력제어컴퓨터의 실시간 SW 개발에서 시작해, 현재는 탑재 SW 통합·검증과 운용시험평가를 담당하고 있습니다.
 
-현재는 방산·항공 SW 분야로의 전직을 준비하며, 실제 업무 경험과 연결되는
-**임베디드 / 항공 계산 코어 / HIL / 검증 자동화** 프로젝트를 만들고 있습니다.
+업무에서는 요구사항을 기준으로 설계·구현·시험 결과를 연결하고,
+반복되는 시험·분석 업무는 C/C++·Python 기반 도구와 자동화로 개선해 왔습니다.
+강화학습, LLM/RAG, 데이터셋 구축과 사내 AI 교육도 함께 경험했습니다.
 
-## Representative Projects
+## Experience
+
+### Test & Verification · 2022.12 ~ Present
+- 항공기 탑재 SW 통합·검증 및 운용시험평가
+- 유도무장, 항법장비(EGI), 데이터링크, 무선 등 탑재 장비 연동 시험
+- 결함 분석·재시험·회귀시험, CPU·메모리·MUX 자원 사용률 측정
+- 요구사항 기반 시험 절차 및 시험 산출물 작성
+
+### Flight Software Development · 2020.06 ~ 2022.12
+- 항공기 화력제어컴퓨터 실시간 SW 개발
+- 무장 투하 이벤트, 공대공 미사일 훈련 모드 및 HUD 시현 로직 구현
+- 데이터링크·무선 제어 코드 분석/수정, MIL-STD-1553 운용 데이터 검증
+
+### AI & Education
+- 강화학습 기반 항공기 시뮬레이터 항적 개선 연구
+- 폐쇄망 LLM/RAG 적용 검토 및 AI·데이터셋 구축 관련 업무
+- 공군 AI 역량강화 교육 및 C++ 교육 교관
+
+## Selected Projects
 
 ### [radar-track-fcc-hil](https://github.com/SungJaeYu/radar-track-fcc-hil)
-**STM32 + Zephyr 기반 레이더 트래킹 HIL 시스템**  
-PC 레이더 시뮬레이터와 STM32 FCC 역할의 임베디드 애플리케이션을 UART로 연결하고,
-프레이밍·CRC·ISR·링버퍼·RTOS 메시지 처리부터 트래킹 및 정량 검증까지 구현하는 프로젝트입니다.
+**STM32 + Zephyr 기반 레이더 트래킹 HIL 시스템 — 개발 중**  
+PC 레이더 시뮬레이터와 STM32를 UART로 연결해 실시간 프레이밍·CRC·ISR·링버퍼·RTOS 메시지 처리와 트래킹 검증 환경을 구현하고 있습니다.
 
 ### [geodesy-wasm](https://github.com/SungJaeYu/geodesy-wasm)
 **C++17 전술 좌표 / 지오데시 계산 엔진 + WebAssembly**  
-GeographicLib 기반 geodesic 계산, Bullseye/BRAA, 레이더 기하, dead reckoning 등을 구현했으며,
-요구사항(HLR)과 36개 known-answer GoogleTest를 추적 연결했습니다.
+GeographicLib 기반 geodesic, Bullseye/BRAA, 레이더 기하, dead reckoning을 구현하고 HLR과 36개 known-answer GoogleTest를 추적 연결했습니다.
 
 ### [flightdyn-wasm](https://github.com/SungJaeYu/flightdyn-wasm)
 **Header-only C++17 비행역학 계산 코어 + WebAssembly**  
-Strongly-typed units, ISA atmosphere, CAS/EAS/TAS, attitude, wind triangle을 구현하고
-요구사항 기반 테스트와 CI로 검증합니다. Bare-metal 이식을 고려해 heap/exceptions 없이 설계했습니다.
+Strongly-typed units, ISA atmosphere, CAS/EAS/TAS, attitude, wind triangle을 구현하고 요구사항 기반 테스트와 CI로 검증합니다.
 
 ### [do-178c-skill](https://github.com/SungJaeYu/do-178c-skill)
 **DO-178C / ED-12C 산출물 작성·검토용 Agent Skill**  
-PSAC/SDP/SVP 등 계획 문서, 요구사항·추적성·시험 산출물, DAL별 objective review를
-DO-178C의 objective 중심으로 다루도록 구성했습니다.
-
-## AI / Retrieval
+요구사항·추적성·시험 산출물과 DAL별 objective review를 DO-178C의 objective 중심으로 다루도록 구성했습니다.
 
 ### [llamaindex_korbm25](https://github.com/SungJaeYu/llamaindex_korbm25)
-2024년 **공군 해커톤(AI 프로그램)** 참가 프로젝트의 RAG 검색 개선 과정에서 개발한
-LlamaIndex 호환 한국어 BM25 Retriever입니다. Okt/Kkma/Kiwi 형태소 분석을 적용했으며,
-해당 해커톤 프로젝트는 **장려상**을 수상했습니다.
+**LlamaIndex 호환 한국어 BM25 Retriever**  
+2024년 공군 해커톤(AI 프로그램) 참가 프로젝트의 RAG 검색 개선 과정에서 개발했습니다. Okt/Kkma/Kiwi 형태소 분석을 적용했으며 해당 프로젝트는 장려상을 수상했습니다.
 
-## Strengths
+## Awards & Certification
 
-- **Safety-critical / Embedded SW** — C/C++, RTOS, 임베디드 개발, 테스트·검증
-- **Aerospace domain** — 항법·레이더·비행 SW 관련 계산 및 시험 도메인
-- **Requirements & Verification** — 요구사항 기반 설계, 추적성, 자동화 테스트, HIL
-- **AI/ML application** — RAG, ML/RL/DL, AI 도구를 활용한 개발·검증 자동화
+- 공군 AI 역량강화 교육 우수교관 (2025)
+- 제6회 공군 해커톤 AI 프로그램 부문 장려상 (2024)
+- 제5회 공군 해커톤 AI 프로그램 부문 최우수상 (2023)
+- 항공무기체계 SW 학술연구 발표대회 우수상 (2022)
+- ISTQB® Foundation Level · ADsP · 정보처리기사
+- TOEIC 900
 
 ## Tech
 
-`C` `C++17` `Python` `STM32` `Zephyr RTOS` `WebAssembly` `GoogleTest` `CMake` `GitHub Actions` `ML/RL/DL`
+`C` `C++` `Python` `VxWorks` `MIL-STD-1553` `STM32` `Zephyr RTOS` `WebAssembly` `CMake` `GoogleTest` `GitHub Actions` `ML/RL` `LLM/RAG`
 
 ## Links
 
+- 🌐 [Portfolio](https://sungjae-blog.vercel.app/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/sungjae-yu-582b95203/)
