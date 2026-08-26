@@ -62,7 +62,7 @@ Strongly-typed units, ISA atmosphere, CAS/EAS/TAS, attitude, wind triangle을 �
 - 제6회 공군 해커톤 AI 프로그램 부문 장려상 (2024)
 - 제5회 공군 해커톤 AI 프로그램 부문 최우수상 (2023)
 - 항공무기체계 SW 학술연구 발표대회 우수상 (2022)
-- ISTQB® Foundation Level · ADsP · 정보처리기사
+- 빅데이터분석기사 · ISTQB® Foundation Level · ADsP · 정보처리기사
 - TOEIC 900
 
 ## Tech
