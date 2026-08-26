@@ -1,12 +1,12 @@
 ### Hi, I'm SungJae Yu 👋
 
-**Flight Software Engineer @ Republic of Korea Air Force**  
+**Flight Software Test Lead @ Republic of Korea Air Force**  
 항공기 탑재 소프트웨어 개발 · 시험평가 · 실시간 임베디드 · AI/RAG
 
 ---
 
 공군에서 **항공기 탑재 소프트웨어 개발과 시험평가**를 수행하고 있습니다.
-화력제어컴퓨터의 실시간 SW 개발에서 시작해, 현재는 탑재 SW 통합·검증과 운용시험평가를 담당하고 있습니다.
+화력제어컴퓨터의 실시간 SW 개발에서 시작해, 현재는 **Test Lead**로서 탑재 SW 통합·검증과 운용시험평가를 담당하고 있습니다.
 
 업무에서는 요구사항을 기준으로 설계·구현·시험 결과를 연결하고,
 반복되는 시험·분석 업무는 C/C++·Python 기반 도구와 자동화로 개선해 왔습니다.
@@ -14,11 +14,12 @@
 
 ## Experience
 
-### Test & Verification · 2022.12 ~ Present
+### Test Lead · Test & Verification · 2022.12 ~ Present
 - 항공기 탑재 SW 통합·검증 및 운용시험평가
 - 유도무장, 항법장비(EGI), 데이터링크, 무선 등 탑재 장비 연동 시험
 - 결함 분석·재시험·회귀시험, CPU·메모리·MUX 자원 사용률 측정
 - 요구사항 기반 시험 절차 및 시험 산출물 작성
+- 프로젝트별 시험 일정·자원 조율 및 결과 종합
 
 ### Flight Software Development · 2020.06 ~ 2022.12
 - 항공기 화력제어컴퓨터 실시간 SW 개발
