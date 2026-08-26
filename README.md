@@ -40,13 +40,13 @@
 **STM32 + Zephyr 기반 레이더 트래킹 HIL 시스템 — 개발 중**  
 PC 레이더 시뮬레이터와 STM32를 UART로 연결해 실시간 프레이밍·CRC·ISR·링버퍼·RTOS 메시지 처리와 트래킹 검증 환경을 구현하고 있습니다.
 
-### [geodesy-wasm](https://github.com/SungJaeYu/geodesy-wasm)
-**C++17 전술 좌표 / 지오데시 계산 엔진 + WebAssembly**  
-GeographicLib 기반 geodesic, Bullseye/BRAA, 레이더 기하, dead reckoning을 구현하고 HLR과 36개 known-answer GoogleTest를 추적 연결했습니다.
-
 ### [flightdyn-wasm](https://github.com/SungJaeYu/flightdyn-wasm)
 **Header-only C++17 비행역학 계산 코어 + WebAssembly**  
 Strongly-typed units, ISA atmosphere, CAS/EAS/TAS, attitude, wind triangle을 구현하고 요구사항 기반 테스트와 CI로 검증합니다.
+
+### [geodesy-wasm](https://github.com/SungJaeYu/geodesy-wasm)
+**C++17 전술 좌표 / 지오데시 계산 엔진 + WebAssembly**  
+GeographicLib 기반 geodesic, Bullseye/BRAA, 레이더 기하, dead reckoning을 구현하고 HLR과 36개 known-answer GoogleTest를 추적 연결했습니다.
 
 ### [do-178c-skill](https://github.com/SungJaeYu/do-178c-skill)
 **DO-178C / ED-12C 산출물 작성·검토용 Agent Skill**  
